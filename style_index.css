@@ -33,9 +33,23 @@ h3{
     margin: 5% 0%;
     font-weight: 200;
     border-radius: 10px;
+    font-size: 125%;
+    width: 130%;
 }
 
-#info{
-    margin: 0% 30% 0% 60%
+#info {
+    margin-left: 60%;
+    width: 95px;
 }
 
+@media (max-width: 680px) {
+    #info {
+        width: 15%;
+    }
+}
+
+/*#projects > div {
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+}*/
